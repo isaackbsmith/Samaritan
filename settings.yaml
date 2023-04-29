@@ -1,0 +1,20 @@
+ROOT:
+  PROJECT: "Northern Lights [MK-1]"
+  NAME: "Samaritan"
+  DEBUG: true
+
+ENTITY:
+  NAME: "Athena"
+  WAKEWORD_KEY: "AzYbcpNhYVTRVeRS8T12tSDKCZNMtT3cl3Vw6CPm1LzBklz0LYVtgQ=="
+
+QUEUE:
+  SERVER: 127.0.0.1
+  USERNAME: "guest"
+  PASSWORD: "guest"
+  PORT: 5672
+
+DATABASE:
+  SERVER: "localhost"
+  NAME: "Samaritan"
+  USERNAME: "Admin"
+  PASSWORD: "Aletheia"

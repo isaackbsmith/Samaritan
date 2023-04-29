@@ -1,0 +1,4 @@
+*.db
+model
+*.tar.gz
+__pycache__

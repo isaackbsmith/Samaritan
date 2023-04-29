@@ -1,0 +1,200 @@
+category,item,response,action,next
+GREET,1,Hello.,,0-GREET2-0
+GREET,2,Hello there.,,0-GREET2-0
+GREET,3,Good #DAY# sir,,0-GREET2-0
+GREET,4,Good day.,,0-GREET2-0
+ENJOY,1,Have a nice day.,,
+ENJOY,2,Enjoy your day.,,
+ENJOY,3,Have a nice day.,,
+ENJOY,4,Buenos dias,,
+ENJOY,5,Enjoy your #DAY#.,,
+ENJOY,6,Ready to assist you on today's adventure,,
+TIME,1,#TIME#,getTime,
+DATE,1,#DATE#,getDate,
+SEE,1,The cameras are my eyes.,getSight,
+WEATHER,1,,getWeather,
+EMAIL,1,,sendEmail,
+GOOGLE,1,,searchGoogle,
+WIKIPEDIA,1,,searchWikipedia,
+NEWS,1,Fetching the latest news,getNews,
+READ,1,,readClipboard,
+COVID,1,,getCovidStats,
+SCREENSHOT,1,Screenshot has been taken and saved sir,takeScreenshot,
+FLIP,1,Flipping a virtual coin,flipCoin,
+ROLL,1,Rolling a virtual die,rollDie,
+PCSTATS,1,,getPCStats,
+JEOPARDY,1,get ready to play,startJeopardy,
+FINISH,1,OK.,,
+JOKE1,1,What is brown and sticky?,pauseListen,0-JOKE2-1
+JOKE2,1,A stick.,,0-JOKE3-0
+JOKE1,2,What do you get when you cross a cheetah with a hamburger,pauseListen,0-JOKE2-2
+JOKE2,2,Fast food.,,0-JOKE3-0
+JOKE1,3,Why did the whale cross the road?,pauseListen,0-JOKE2-3
+JOKE2,3,To get to the other tide.,,0-JOKE3-0
+JOKE1,4,Why did the student eat his homework?,pauseListen,0-JOKE2-4
+JOKE2,4,Because the teacher said it was a piece of cake.,,0-JOKE3-0
+JOKE1,5,Why couldn't the pirate play cards?,pauseListen,0-JOKE2-5
+JOKE2,5,Because he was sitting on the deck.,,0-JOKE3-0
+JOKE1,6,Why was the broom late for school?,pauseListen,0-JOKE2-6
+JOKE2,6,Because it over swept.,,0-JOKE3-0
+JOKE1,7,Why is it hard to play cards in the jungle?,pauseListen,0-JOKE2-7
+JOKE2,7,Because there are a lot of cheetahs there.,,0-JOKE3-0
+JOKE1,8,Why don't skeletons go sky diving?,pauseListen,0-JOKE2-8
+JOKE2,8,Because they dont have the guts.,,0-JOKE3-0
+JOKE1,9,"A horse walked into a bar. ",,0-JOKE2-9
+JOKE2,9,"The bartender looked at him and said...Hey Buddy, what is with the long face?",,0-JOKE3-0
+JOKE2,10,I will meet you at the corner!,,0-JOKE3-0
+JOKE1,10,What did one wall say to the other wall?,pauseListen,0-JOKE2-10
+JOKE1,11,What do you call a bear with no teeth?,pauseListen,0-JOKE2-11
+JOKE2,11,A gummy bear!,,0-JOKE3-0
+JOKE1,12,Why are elephants so wrinkled?,pauseListen,0-JOKE2-11
+JOKE2,12,Because they take too long to iron!,,0-JOKE3-0
+JOKE1,13,Why are ghosts bad liars?,pauseListen,0-JOKE2-13
+JOKE2,13,Because you can see right through them!,,0-JOKE3-0
+JOKE1,14,What do you call a fly without wings?,pauseListen,0-JOKE2-14
+JOKE2,14,A walk!,,0-JOKE3-0
+JOKE1,15,Why do bees have sticky hair?,pauseListen,0-JOKE2-15
+JOKE2,15,Because they use honey combs!,," 0-JOKE3-0"
+JOKE1,16,What do you get when you cross a snowman with a vampire?,pauseListen,0-JOKE2-16
+JOKE2,16,Frostbite!,,0-JOKE3-0
+JOKE1,17,What has four wheels and flies?,pauseListen,0-JOKE2-17
+JOKE2,17,A garbage truck!,,0-JOKE3-0
+JOKE1,18,Why did the man run around his bed?,pauseListen,0-JOKE2-18
+JOKE2,18,Because he was trying to catch up on his sleep!,,0-JOKE3-0
+JOKE1,19,Why dont bananas get lonely?,"pauseListen ",0-JOKE2-19
+JOKE2,19,Because they hang around in bunches.,,0-JOKE3-0
+JOKE1,20,Why did the boy sit on his watch?,"pauseListen ",0-JOKE2-20
+JOKE2,20,Because he wanted to be on time.,,0-JOKE3-0
+JOKE1,21,What sort of nuts can hang pictures?,"pauseListen ",0-JOKE2-21
+JOKE2,21,Walnuts.,,0-JOKE3-0
+JOKE1,22,What did the dentist say to the golfer?,"pauseListen ",0-JOKE2-22
+JOKE2,22,You have a hole in one.,,0-JOKE3-0
+JOKE1,23,When is it time to go to the dentist?,"pauseListen ",0-JOKE2-23
+JOKE2,23,Tooth hurty.,,0-JOKE3-0
+JOKE1,24,Why did the man laugh after his operation?,"pauseListen ",0-JOKE2-24
+JOKE2,24,Because he was left in stitches.,,0-JOKE3-0
+JOKE1,25,What did the tuna fish say when he saw a submarine?,"pauseListen ",0-JOKE2-25
+JOKE2,25,"Look,  its a can of people.",,0-JOKE3-0
+JOKE1,26,Why was the number ten scared?,"pauseListen ",0-JOKE2-26
+JOKE2,26,Because seven ate nine.,,0-JOKE3-0
+JOKE1,27,Who gets the sack every time they go to work?,"pauseListen ",0-JOKE2-27
+JOKE2,27,The postman.,,0-JOKE3-0
+JOKE1,28,What sort of clothes does a house wear?,"pauseListen ",0-JOKE2-28
+JOKE2,28,Address.,,0-JOKE3-0
+JOKE1,29,What do you call a man who has to shave all day long?,"pauseListen ",0-JOKE2-29
+JOKE2,29,A barber.,,0-JOKE3-0
+JOKE1,30,Where can you always find a helping hand?,"pauseListen ",0-JOKE2-30
+JOKE2,30,At the end of your arm.,,0-JOKE3-0
+JOKE1,31,What washes up on very small beaches?,"pauseListen ",0-JOKE2-31
+JOKE2,31,Microwaves.,,0-JOKE3-0
+JOKE1,32,What sort of room has no door or windows?,"pauseListen ",0-JOKE2-32
+JOKE2,32,A mushroom.,,0-JOKE3-0
+JOKE1,33,How long should a persons legs be?,"pauseListen ",0-JOKE2-33
+JOKE2,33,Long enough to reach their feet.,,0-JOKE3-0
+JOKE1,34,When is it unlucky to see a black cat?,"pauseListen ",0-JOKE2-34
+JOKE2,34,When you are a mouse.,,0-JOKE3-0
+JOKE1,35,How do you make a fishing net?,"pauseListen ",0-JOKE2-35
+JOKE2,35,You take lots of holes and tie them together with string.,,0-JOKE3-0
+JOKE1,36,How do you make a hot dog stand?,"pauseListen ",0-JOKE2-36
+JOKE2,36,You take away his chair.,,0-JOKE3-0
+JOKE1,37,What did the inventor of the telephone say?,"pauseListen ",0-JOKE2-37
+JOKE2,37,I wish I had made two of these.,,0-JOKE3-0
+JOKE1,38,What do you call a ship shaking on the bottom of the ocean?,"pauseListen ",0-JOKE2-38
+JOKE2,38,A nervous wreck.,,0-JOKE3-0
+JOKE1,39,What is the best way to win a running race?,"pauseListen ",0-JOKE2-39
+JOKE2,39,Run faster then everyone else.,,0-JOKE3-0
+JOKE1,40,What invention allows you to see through walls?,"pauseListen ",0-JOKE2-40
+JOKE2,40,The window.,,0-JOKE3-0
+JOKE1,41,What is the best way to make fire with two sticks?,"pauseListen ",0-JOKE2-41
+JOKE2,41,Make sure one of them is a match.,,0-JOKE3-0
+JOKE1,42,What did the stamp say to the envelope?,"pauseListen ",0-JOKE2-42
+JOKE2,42,Stick with me and we can go places.,,0-JOKE3-0
+JOKE1,43,What did the neck tie say to the hat?,"pauseListen ",0-JOKE2-43
+JOKE2,43,"You go on ahead,  I will hang around here.",,0-JOKE3-0
+JOKE1,44,Did you know there are only three types of people in the world?,,0-JOKE2-44
+JOKE2,44,"Those who can count,  and those who cannot.",,0-JOKE3-0
+JOKE1,45,How do you cut the sea in half?,"pauseListen ",0-JOKE2-45
+JOKE2,45,With a see-saw.,,0-JOKE3-0
+JOKE1,46,Did you hear about the insomniac butcher?,,0-JOKE2-46
+JOKE2,46,He stayed awake and weighed a steak.,,0-JOKE3-0
+JOKE1,47,What is easy to get into but hard to get out of?,"pauseListen ",0-JOKE2-47
+JOKE2,47,Trouble.,,0-JOKE3-0
+JOKE1,48,What has rings but no fingers?,"pauseListen ",0-JOKE2-48
+JOKE2,48,A telephone.,,0-JOKE3-0
+JOKE1,49,What do you get if you jump into the red sea?,"pauseListen ",0-JOKE2-49
+JOKE2,49,Wet.,,0-JOKE3-0
+JOKE1,50,What sort of toy did the lazy boy buy?,"pauseListen ",0-JOKE2-50
+JOKE2,50,An inaction figure.,,0-JOKE3-0
+JOKE1,51,What did one raindrop say to the other raindrop?,"pauseListen ",0-JOKE2-51
+JOKE2,51,Two is company… but three is a cloud.,,0-JOKE3-0
+JOKE1,52,What did one coin say to the other coin?,"pauseListen ",0-JOKE2-52
+JOKE2,52,You make good cents.,,0-JOKE3-0
+JOKE1,53,Which animal can jump higher than a house?,"pauseListen ",0-JOKE2-53
+JOKE2,53,Most of them can. Because houses cant jump.,,0-JOKE3-0
+JOKE1,54,Which star is the most dangerous?,"pauseListen ",0-JOKE2-54
+JOKE2,54,A shooting star.,,0-JOKE3-0
+JOKE1,55,Why did the balloon burst?,"pauseListen ",0-JOKE2-55
+JOKE2,55,Because it saw a lolly pop.,,0-JOKE3-0
+JOKE1,56,Why did the farmer drive a steamroller through his field?,"pauseListen ",0-JOKE2-56
+JOKE2,56,He wanted to grow mashed potatoes.,,0-JOKE3-0
+JOKE1,57,Where do you find baby soldiers?,"pauseListen ",0-JOKE2-57
+JOKE2,57,In the infantry.,,0-JOKE3-0
+JOKE1,58,What do you call a man who makes silly faces all day?,"pauseListen ",0-JOKE2-58
+JOKE2,58,A cuckoo clockmaker.,,0-JOKE3-0
+JOKE1,59,Why did the didgeridoo answer the phone?,"pauseListen ",0-JOKE2-59
+JOKE2,59,Because the boomerang.,,0-JOKE3-0
+JOKE1,60,What sort of flower grows under your nose?,"pauseListen ",0-JOKE2-60
+JOKE2,60,Two lips.,,0-JOKE3-0
+JOKE1,61,What has one hundred legs but cant walk?,"pauseListen ",0-JOKE2-61
+JOKE2,61,Fifty pairs of paints.,,0-JOKE3-0
+JOKE1,62,What sort of jam cant you eat?,"pauseListen ",0-JOKE2-62
+JOKE2,62,A traffic jam.,,0-JOKE3-0
+JOKE1,63,What is the hottest letter in the alphabet?,"pauseListen ",0-JOKE2-63
+JOKE2,63,B. Because it makes oil…boil.,,0-JOKE3-0
+JOKE1,64,I went to the seaside last year for a holiday.,,0-JOKE2-64
+JOKE2,64,It was so boring the tide went out one day and never came back.,,0-JOKE3-0
+JOKE1,65,What did the big chimney say to the little chimney?,"pauseListen ",0-JOKE2-65
+JOKE2,65,You are too young to smoke.,,0-JOKE3-0
+JOKE1,66,Why did the snowman get all dressed up?,"pauseListen ",0-JOKE2-66
+JOKE2,66,Because he wanted to go to the snow ball.,,0-JOKE3-0
+JOKE1,67,What did the rug say to the floor?,"pauseListen ",0-JOKE2-67
+JOKE2,67,Dont move. I have got you covered.,,0-JOKE3-0
+JOKE1,68,Why do people always march when playing the bagpipes?,"pauseListen ",0-JOKE2-68
+JOKE2,68,They are trying to get away from the noise.,,0-JOKE3-0
+JOKE1,69,How do you clean the sky?,"pauseListen ",0-JOKE2-69
+JOKE2,69,With a sky scraper.,,0-JOKE3-0
+JOKE1,70,Why did the car get a puncture?,"pauseListen ",0-JOKE2-70
+JOKE2,70,Because of the fork in the road.,,0-JOKE3-0
+JOKE1,71,Where does a general keep his armies?,"pauseListen ",0-JOKE2-71
+JOKE2,71,Up his sleevies.,,0-JOKE3-0
+JOKE1,72,What do you call a boomerang that does not come back?,"pauseListen ",0-JOKE2-72
+JOKE2,72,A stick.,,0-JOKE3-0
+JOKE1,73,What is the easiest way to get a day off school?,"pauseListen ",0-JOKE2-73
+JOKE2,73,Wait until Saturday.,,0-JOKE3-0
+JOKE1,74,How did the rocket lose its job?,"pauseListen ",0-JOKE2-74
+JOKE2,74,It was fired.,,0-JOKE3-0
+JOKE1,75,How much should a pirate pay for earrings?,"pauseListen ",0-JOKE2-75
+JOKE2,75,A buccaneer.,,0-JOKE3-0
+JOKE1,76,What should you do if you see a space man?,"pauseListen ",0-JOKE2-76
+JOKE2,76,You should park in it man.,,0-JOKE3-0
+JOKE1,77,I made a belt out of watches.,,0-JOKE2-77
+JOKE2,77,It was a complete waste of time.,,0-JOKE3-0
+JOKE1,78,What did the number zero say to the number eight.,"pauseListen ",0-JOKE2-78
+JOKE2,78,I think your belt is too tight.,,0-JOKE3-0
+JOKE3,1,Ha Ha Ha. I like that one. Would you like to hear another?,yesNo,YES-JOKE5-0|NO-FINISH-0
+JOKE3,2,I hope you liked that one. Can I tell you another one?,yesNo,YES-JOKE5-0|NO-JOKE4-0
+JOKE3,3,Ha Ha Ha. I like that one. Would you like to hear another?,yesNo,YES-JOKE5-0|NO-JOKE4-0
+JOKE3,4,Ha Ha Ha. That one always cracks me up.,,
+JOKE3,5,Ha Ha Ha. That one is very funny.,,
+JOKE3,6,I have lots more where that came from. Would you like to hear another?,yesNo,YES-JOKE5-0|NO-JOKE4-0
+JOKE3,7,I read that one in a christmas cracker. Can I tell you another one?,yesNo,YES-JOKE5-0|NO-JOKE4-0
+JOKE4,1,"If you think my jokes are not funny,  then blame the internet. That is where I get them from.",,
+JOKE4,2,OK. I will try to find some better ones for next time.,,
+JOKE4,3,OK. Maybe that was not so funny after all.,,
+JOKE4,4,OK. Let me know if you need anything else.,,
+JOKE5,1,OK. How about this one....,,0-JOKE1-0
+JOKE5,2,Great. How about this....,,0-JOKE1-0
+JOKE5,3,OK then...,,0-JOKE1-0
+JOKE5,4,Try this one then...,,0-JOKE1-0
+JOKE5,5,You must like my jokes. OK then...,,0-JOKE1-0
+QUIT,1,I'm here for whatever you may need.,sleep,

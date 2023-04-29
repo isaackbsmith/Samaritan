@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "group": "greeting",
+      "patterns": [
+        "hi",
+        "hey",
+        "how are you",
+        "is anyone there",
+        "hello",
+        "good day"
+      ],
+      "responses": [
+        "hey",
+        "hello how are you",
+        "hi",
+        "good daypart",
+        "how can i help you",
+        "what can i do for you"
+      ],
+      "context": "0-GREET-0"
+    },
+    {
+      "group": "goodbye",
+      "patterns": ["bye", "goodbye", "talk to you later", "sleep", "stand by"],
+      "responses": [
+        "have a nice day",
+        "goodbye",
+        "bye",
+        "standing by",
+        "live long and prosper"
+      ],
+      "context": "0-QUIT-0"
+    },
+    {
+      "group": "thanks",
+      "patterns": ["thanks", "thank you", "i appreciate it"],
+      "responses": ["you are welcome", "happy to help", "my pleasure"],
+      "context": ""
+    },
+    {
+      "group": "creator",
+      "patterns": ["who created you", "who is your master", "who made you"],
+      "responses": [
+        "Isaac Smith",
+        "i was created by Isaac Smith",
+        "i was built by Isaac Smith. You can call him Sage"
+      ],
+      "context": ""
+    },
+    {
+      "group": "identity",
+      "patterns": [
+        "what can you do",
+        "what are you",
+        "who are you",
+        "are you an ai"
+      ],
+      "responses": [
+        "i can do anything, just ask.",
+        "my name is samaritan",
+        "i am an artificially intelligent system",
+        "i serve my purpose by being intelligent"
+      ],
+      "context": ""
+    },
+    {
+      "group": "joke",
+      "patterns": [
+        "do you know any jokes",
+        "tell me something funny",
+        "tell me a joke",
+        "do you have a sense of humor"
+      ],
+      "responses": [
+        "this is a good one",
+        "give me a sec",
+        "maybe maybe not",
+        "one joke comming up"
+      ],
+      "context": "0-JOKE1-0"
+    },
+    {
+      "group": "sight",
+      "patterns": [
+        "can you see me",
+        "can you see this",
+        "do you have eyes",
+        "what do you see"
+      ],
+      "responses": [
+        "the cameras are my eyes",
+        "yes i can",
+        "i can recognize people and objects too",
+        "i see everything"
+      ],
+      "context": "0-SEE-0"
+    },
+    {
+      "group": "datetime",
+      "patterns": [
+        "what is the time",
+        "do you know the time",
+        "what is the date",
+        "tell me the time",
+        "tell me the date",
+        "what is the date and time"
+      ],
+      "responses": [
+        "it is #datetimepart#",
+        "#timepart#",
+        "the time is #timepart# according to my clock"
+      ],
+      "context": "0-TIME-0"
+    },
+    {
+      "group": "weather",
+      "patterns": [
+        "what is it like outside",
+        "tell me the weather",
+        "show me today's waether forecast",
+        "how is the weather looking today"
+      ],
+      "responses": [
+        "fetching weather",
+        "satellite connection established",
+        "here is todays weather forecast"
+      ],
+      "context": ""
+    },
+    {
+      "group": "weather",
+      "patterns": [
+        "what is it like outside",
+        "tell me the weather",
+        "show me today's waether forecast",
+        "how is the weather looking today"
+      ],
+      "responses": [
+        "fetching weather",
+        "satellite connection established",
+        "here is todays weather forecast"
+      ],
+      "context": ""
+    },
+    {
+      "group": "jeopardy",
+      "patterns": [
+        "initiate jeopardy protocol",
+        "let's play jeopardy",
+        "initiate project Trebeck",
+        "start jeopardy"
+      ],
+      "responses": ["starting jeopardy", "get ready to play", "affirmative"],
+      "context": "0-JEOPARDY-0"
+    }
+  ]
+}
